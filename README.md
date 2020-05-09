@@ -21,10 +21,10 @@ Home :
 ![Home Interface](/6/mockup/img/Screenshot227.png "Home")
 
 Add :
-![Add Interface](/6b/img/Screenshot222.png "Add")
+![Add Interface](/6/mockup/img/Screenshot222.png "Add")
 
 Delete :
-![Delete Interface](/6b/img/Screenshot226.png "Delete")
+![Delete Interface](/6/mockup/img/Screenshot226.png "Delete")
 
 Edit :
-![Edit Interface](/6b/img/Screenshot224.png "Edit")
+![Edit Interface](/6/mockup/Screenshot224.png "Edit")
