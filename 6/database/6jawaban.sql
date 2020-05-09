@@ -1,0 +1,1 @@
+SELECT cashier.name_cashier, product.name, category.name_category, product.price FROM product,category,cashier WHERE product.id_category = category.id AND product.id_cashier = cashier.id

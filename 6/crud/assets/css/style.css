@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.clearfix {
+    clear: both;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    padding: 10px 0 ;
+    background-color: #fff;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .2);
+}
+header img {
+    float: left;
+}
+header h2 {
+    float: left;
+    margin-top: 45px;
+}
+table {
+    width: 100%;
+    border: none;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    border-collapse: collapse
+    
+}
+table th {
+    background-color: rgba(229, 226, 226, 0.507);
+}
+table td, th {
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 15px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    outline: 0;
+}
+button {
+    cursor: pointer;
+}
+button#button-add {
+    background-color: rgb(245, 171, 61);
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    float: right;
+}
+button#add {
+    background-color: rgb(245, 171, 61);
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    padding: 10px 30px;
+    float: right;
+    margin-right: -50px;
+    
+}
+.bg-form ,.bg-alert{
+    background-color: rgba(0,0,0,.1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+}
+form, .alert {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .2);
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    top: 20%
+}
+.form-header, .alert-header {
+    padding: 10px 0;
+}
+.form-body, .alert-body {
+    padding: 20px;
+}
+.alert-body {
+    text-align: center
+}
+.alert-body h1 {
+    background-color: #00C7A5;
+    display: inline-block;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.alert-body h2 {
+    margin-bottom: 50px;
+}
+.form-body input,.form-body select  {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid rgba(0, 0, 0, .1);
+}
+
+button#close, button#alert-close {
+    position: absolute;
+    right: 12px;
+    top: 5px;
+    border: none;
+    color: red;
+    background-color: transparent;
+    font-size: 15px
+}
