@@ -27,4 +27,4 @@ Delete :
 ![Delete Interface](/6/mockup/img/Screenshot226.png "Delete")
 
 Edit :
-![Edit Interface](/6/mockup/Screenshot224.png "Edit")
+![Edit Interface](/6/mockup/img/Screenshot224.png "Edit")
